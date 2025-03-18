@@ -5,5 +5,8 @@ app = Flask (__name__)
 def home ():
     return "my project"
 
+
+@app.route("/Gulfam")
+
 if __name__=='__main__':
     app.run(debug=True)
